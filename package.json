@@ -6,6 +6,10 @@
   "author": "Luan Ribeiro <luanribeiros@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint",
+    "prepush": "yarn run lint"
+  },
   "devDependencies": {
     "eslint": "^4.18.1",
     "eslint-config-airbnb-base": "^12.1.0",

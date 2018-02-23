@@ -5,5 +5,8 @@
   "repository": "git@github.com:luanribeiros/irango.git",
   "author": "Luan Ribeiro <luanribeiros@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "husky": "^0.14.3"
+  }
 }

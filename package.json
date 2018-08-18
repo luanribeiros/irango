@@ -1,19 +1,13 @@
 {
-  "name": "IRango",
+  "name": "iRango",
   "version": "1.0.0",
+  "description": "App localizador de restaurantes",
   "main": "index.js",
   "repository": "git@github.com:luanribeiros/irango.git",
   "author": "Luan Ribeiro <luanribeiros@gmail.com>",
-  "license": "MIT",
-  "private": true,
-  "scripts": {
-    "lint": "./node_modules/.bin/eslint",
-    "prepush": "yarn run lint"
-  },
-  "devDependencies": {
-    "eslint": "^4.18.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.9.0",
-    "husky": "^0.14.3"
+  "license": "true",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
   }
 }
